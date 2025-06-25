@@ -154,13 +154,7 @@ with tabs[1]:
     st.latex(latex_mt)
     st.latex(latex_mu)
     st.latex(latex_md)
-modal = Modal(
-    "Demo Modal", 
-    key="demo-modal",
-    # Optional
-    padding=20,    # default value
-    max_width=744  # default value
-)
+    
 with tabs[2]:
     st.subheader("Überdeckungsfaktor aT (linear)")
     st.write("Interpoliert nach Rohrabstand und Rλ,B")
