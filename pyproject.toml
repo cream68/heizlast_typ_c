@@ -1,0 +1,14 @@
+[project]
+name = "heizlast-typ-c"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "handcalcs>=1.9.0",
+    "numpy>=2.3.1",
+    "pandas>=2.3.0",
+    "pint>=0.24.4",
+    "scipy>=1.16.0",
+    "streamlit>=1.46.0",
+]
