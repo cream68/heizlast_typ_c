@@ -6,7 +6,6 @@ from handcalcs.decorator import handcalc
 from heizlast_typ_c.interpolation import get_bounding_box, get_bounding_box_1d, interpolate_linear_with_fallback, interpolate_bilinear_with_fallback
 from heizlast_typ_c.const import c_water, overcoverage_factors, pipe_diameter_factors, pipe_spacing_factors, water_density
 import handcalcs
-from streamlit_modal import Modal
 
 handcalcs.set_option("preferred_string_formatter", "~L")
 ureg = UnitRegistry()
